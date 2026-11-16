@@ -20,8 +20,10 @@
  th { font-weight:600; vertical-align:bottom } td.key { font-weight:700 } .dim { color:var(--ink2); font-weight:400 }
  .badge { font-size:.75rem; border:1px solid var(--accent); color:var(--accent); border-radius:4px; padding:0 .3rem }
  th button { font:inherit; font-weight:600; color:inherit; background:none; border:0; padding:0; cursor:pointer; text-align:left }
- th button:hover { text-decoration:underline } th[aria-sort=ascending] button::after { content:" ▲"; font-size:.7em }
- th[aria-sort=descending] button::after { content:" ▼"; font-size:.7em }
+ th button:hover { text-decoration:underline }
+ th button::after { content:" ↕"; font-size:.8em; color:#b5b3ad; font-weight:400 }  /* sortable, not the sort column */
+ th[aria-sort=ascending] button::after { content:" ▲"; font-size:.7em; color:var(--ink) }
+ th[aria-sort=descending] button::after { content:" ▼"; font-size:.7em; color:var(--ink) }
  .toggle { display:inline-flex; gap:.4rem; align-items:center; font-size:.93rem; margin-bottom:.5rem; cursor:pointer }
  .scroll { overflow-x:auto } ol li, ul li { margin:.35rem 0 } pre { background:#f3f3f1; padding:1rem; border-radius:6px; overflow-x:auto; font-size:.85rem }
  footer { color:var(--ink2); font-size:.85rem; margin-top:3rem }
