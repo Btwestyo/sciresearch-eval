@@ -1,0 +1,502 @@
+% Verified 2026-10-26 against primary records (arXiv abstract pages, Crossref DOIs, OpenReview, PMLR, NeurIPS
+% proceedings) by literature-check passes; the last unverified entries were checked 2026-11-03. Anonymous entries are
+% ICLR 2027 submissions under review: re-check their status (and authors, once de-anonymised) before each arXiv version.
+
+% ---------------------------------------------------------------- statistics, calibration, inverse heat transfer
+@article{gneiting2007strictly,
+  author  = {Gneiting, Tilmann and Raftery, Adrian E.},
+  title   = {Strictly Proper Scoring Rules, Prediction, and Estimation},
+  journal = {Journal of the American Statistical Association},
+  volume  = {102}, number = {477}, pages = {359--378}, year = {2007},
+  doi     = {10.1198/016214506000001437}
+}
+@article{kennedy2001bayesian,
+  author  = {Kennedy, Marc C. and O'Hagan, Anthony},
+  title   = {Bayesian Calibration of Computer Models},
+  journal = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+  volume  = {63}, number = {3}, pages = {425--464}, year = {2001},
+  doi     = {10.1111/1467-9868.00294}
+}
+@article{brynjarsdottir2014learning,
+  author  = {Brynjarsd{\'o}ttir, Jenn{\'y} and O'Hagan, Anthony},
+  title   = {Learning about Physical Parameters: The Importance of Model Discrepancy},
+  journal = {Inverse Problems},
+  volume  = {30}, number = {11}, pages = {114007}, year = {2014},
+  doi     = {10.1088/0266-5611/30/11/114007}
+}
+@book{beck1977parameter,
+  author    = {Beck, James V. and Arnold, Kenneth J.},
+  title     = {Parameter Estimation in Engineering and Science},
+  publisher = {Wiley}, address = {New York}, year = {1977}
+}
+@book{ozisik2000inverse,
+  author    = {{\"O}zi{\c{s}}ik, M. Necati and Orlande, Helcio R. B.},
+  title     = {Inverse Heat Transfer: Fundamentals and Applications},
+  publisher = {Taylor \& Francis}, address = {New York}, year = {2000}
+}
+@article{parker1961flash,
+  author  = {Parker, W. J. and Jenkins, R. J. and Butler, C. P. and Abbott, G. L.},
+  title   = {Flash Method of Determining Thermal Diffusivity, Heat Capacity, and Thermal Conductivity},
+  journal = {Journal of Applied Physics},
+  volume  = {32}, number = {9}, pages = {1679--1684}, year = {1961},
+  doi     = {10.1063/1.1728417}
+}
+@book{oberkampf2010verification,
+  author    = {Oberkampf, William L. and Roy, Christopher J.},
+  title     = {Verification and Validation in Scientific Computing},
+  publisher = {Cambridge University Press}, year = {2010},
+  doi       = {10.1017/CBO9780511760396}
+}
+
+% ---------------------------------------------------------------- uncertainty and calibration of language models
+@article{kadavath2022language,
+  author  = {Kadavath, Saurav and Conerly, Tom and Askell, Amanda and Henighan, Tom and Drain, Dawn and Perez, Ethan and others},
+  title   = {Language Models (Mostly) Know What They Know},
+  journal = {arXiv preprint arXiv:2207.05221}, year = {2022}
+}
+@article{epstein2025fermieval,
+  author  = {Epstein, Elliot L. and Winnicki, John and Sornwanee, Thanawat and Dwaraknath, Rajat},
+  title   = {{LLMs} are Overconfident: Evaluating Confidence Interval Calibration with {FermiEval}},
+  journal = {arXiv preprint arXiv:2510.26995}, year = {2025}
+}
+
+% ---------------------------------------------------------------- scientific discovery and research agents
+@inproceedings{jansen2024discoveryworld,
+  author    = {Jansen, Peter and C{\^o}t{\'e}, Marc-Alexandre and Khot, Tushar and Bransom, Erin and Dalvi Mishra, Bhavana and Majumder, Bodhisattwa Prasad and Tafjord, Oyvind and Clark, Peter},
+  title     = {{DiscoveryWorld}: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track},
+  year      = {2024}, eprint = {2406.06769}, archivePrefix = {arXiv}
+}
+@inproceedings{chen2025scienceagentbench,
+  author    = {Chen, Ziru and Chen, Shijie and Ning, Yuting and Zhang, Qianheng and Wang, Boshi and Yu, Botao and Li, Yifei and Liao, Zeyi and Wei, Chen and Lu, Zitong and Dey, Vishal and Xue, Mingyi and Baker, Frazier N. and Burns, Benjamin and Adu-Ampratwum, Daniel and Huang, Xuhui and Ning, Xia and Gao, Song and Su, Yu and Sun, Huan},
+  title     = {{ScienceAgentBench}: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025}, eprint = {2410.05080}, archivePrefix = {arXiv}
+}
+@inproceedings{majumder2025discoverybench,
+  author    = {Majumder, Bodhisattwa Prasad and Surana, Harshit and Agarwal, Dhruv and Dalvi Mishra, Bhavana and Meena, Abhijeetsingh and Prakhar, Aryan and Vora, Tirth and Khot, Tushar and Sabharwal, Ashish and Clark, Peter},
+  title     = {{DiscoveryBench}: Towards Data-Driven Discovery with Large Language Models},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025}, eprint = {2407.01725}, archivePrefix = {arXiv}
+}
+@inproceedings{wijk2025rebench,
+  author    = {Wijk, Hjalmar and Lin, Tao Roa and Becker, Joel and Jawhar, Sami and Parikh, Neev and Broadley, Thomas and others},
+  title     = {{RE}-Bench: Evaluating Frontier {AI} {R\&D} Capabilities of Language Model Agents against Human Experts},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  series    = {PMLR}, volume = {267}, pages = {66772--66832}, year = {2025},
+  eprint    = {2411.15114}, archivePrefix = {arXiv}
+}
+@article{siegel2024corebench,
+  author  = {Siegel, Zachary S. and Kapoor, Sayash and Nadgir, Nitya and Stroebl, Benedikt and Narayanan, Arvind},
+  title   = {{CORE}-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark},
+  journal = {Transactions on Machine Learning Research}, year = {2024},
+  eprint  = {2409.11363}, archivePrefix = {arXiv}
+}
+@article{laurent2024labbench,
+  author  = {Laurent, Jon M. and Janizek, Joseph D. and Ruzo, Michael and Hinks, Michaela M. and Hammerling, Michael J. and Narayanan, Siddharth and Ponnapati, Manvitha and White, Andrew D. and Rodriques, Samuel G.},
+  title   = {{LAB}-Bench: Measuring Capabilities of Language Models for Biology Research},
+  journal = {arXiv preprint arXiv:2407.10362}, year = {2024}
+}
+@inproceedings{chan2025mlebench,
+  author    = {Chan, Jun Shern and Chowdhury, Neil and Jaffe, Oliver and Aung, James and Sherburn, Dane and Mays, Evan and Starace, Giulio and Liu, Kevin and Maksin, Leon and Patwardhan, Tejal and Weng, Lilian and M{\k{a}}dry, Aleksander},
+  title     = {{MLE}-bench: Evaluating Machine Learning Agents on Machine Learning Engineering},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025}, eprint = {2410.07095}, archivePrefix = {arXiv}
+}
+@article{lu2024aiscientist,
+  author  = {Lu, Chris and Lu, Cong and Lange, Robert Tjarko and Foerster, Jakob and Clune, Jeff and Ha, David},
+  title   = {The {AI} Scientist: Towards Fully Automated Open-Ended Scientific Discovery},
+  journal = {arXiv preprint arXiv:2408.06292}, year = {2024}
+}
+@article{yamada2025aiscientistv2,
+  author  = {Yamada, Yutaro and Lange, Robert Tjarko and Lu, Cong and Hu, Shengran and Lu, Chris and Foerster, Jakob and Clune, Jeff and Ha, David},
+  title   = {The {AI} Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search},
+  journal = {arXiv preprint arXiv:2504.08066}, year = {2025}
+}
+@article{lu2026towards,
+  author  = {Lu, Chris and Lu, Cong and Lange, Robert Tjarko and Yamada, Yutaro and Hu, Shengran and Foerster, Jakob and Ha, David and Clune, Jeff},
+  title   = {Towards End-to-End Automation of {AI} Research},
+  journal = {Nature}, volume = {651}, number = {8107}, pages = {914--919}, year = {2026},
+  doi     = {10.1038/s41586-026-10265-5}
+}
+@article{gandhi2025boxinggym,
+  author  = {Gandhi, Kanishk and Li, Michael Y. and Goodyear, Lyle and Bhatia, Agam and Li, Louise and Bhaskar, Aditi and Zaman, Mohammed and Goodman, Noah D.},
+  title   = {{BoxingGym}: Benchmarking Progress in Automated Experimental Design and Model Discovery},
+  journal = {arXiv preprint arXiv:2501.01540}, year = {2025}
+}
+@article{chen2025physgym,
+  author  = {Chen, Yimeng and Pi{\k{e}}kos, Piotr and Ostaszewski, Mateusz and Laakom, Firas and Schmidhuber, J{\"u}rgen},
+  title   = {{PhysGym}: Benchmarking {LLMs} in Interactive Physics Discovery with Controlled Priors},
+  journal = {arXiv preprint arXiv:2507.15550}, year = {2025}
+}
+@inproceedings{zheng2026newtonbench,
+  author    = {Zheng, Tianshi and Tam, Kelvin Kiu-Wai and Nguyen, Newt Hue-Nam K. and Xu, Baixuan and others},
+  title     = {{NewtonBench}: Benchmarking Generalizable Scientific Law Discovery in {LLM} Agents},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2026}, eprint = {2510.07172}, archivePrefix = {arXiv}
+}
+@article{huang2025popper,
+  author  = {Huang, Kexin and Jin, Ying and Li, Ryan and Li, Michael Y. and Cand{\`e}s, Emmanuel and Leskovec, Jure},
+  title   = {Automated Hypothesis Validation with Agentic Sequential Falsifications},
+  journal = {arXiv preprint arXiv:2502.09858}, year = {2025}
+}
+@article{yuh2026bmd,
+  author  = {Yuh, JooKyung and Park, Byungmin and Choi, Eunseo and Baek, Jinheon and Cho, Junmo and Choi, Kyu Hyun and Hwang, Sung Ju and Jin, Kyong Hwan and Lee, Hae Beom},
+  title   = {Bayesian Model Discovery with Language Models: Closing the Loop between Hypotheses and Experiments},
+  journal = {arXiv preprint arXiv:2610.25747}, year = {2026}
+}
+@article{kriz2026amortizing,
+  author  = {Kriz, Anita and Berthon, Antonin and Astorga, Nicol{\'a}s and van der Schaar, Mihaela},
+  title   = {Amortizing Sequential Experimental Design in Reasoning {LLMs}},
+  journal = {arXiv preprint arXiv:2610.20832}, year = {2026}
+}
+@article{wang2026calibrationagent,
+  author  = {Wang, Ruo-Qian},
+  title   = {When is a Large Language Model a Good Calibration Agent? Physics-Labeled Prompting for Budgeted Engineering Simulator Calibration},
+  journal = {arXiv preprint arXiv:2610.22379}, year = {2026}
+}
+@article{chen2026batterysim,
+  author  = {Chen, Jiawei and Gui, Xiaofan and Fang, Shikai and Tao, Shengyu and Zheng, Shun and Liu, Weiqing and others},
+  title   = {{Battery-Sim-Agent}: Leveraging {LLM}-Agent for Inverse Battery Parameter Estimation},
+  journal = {arXiv preprint arXiv:2605.29560}, year = {2026}
+}
+@article{mudur2025feabench,
+  author  = {Mudur, Nayantara and Cui, Hao and Venugopalan, Subhashini and Raccuglia, Paul and Brenner, Michael P. and Norgaard, Peter},
+  title   = {{FEABench}: Evaluating Language Models on Multiphysics Reasoning Ability},
+  journal = {arXiv preprint arXiv:2504.06260}, year = {2025}
+}
+% Titles, first authors and venues below checked against their arXiv abstract pages (2026-11-03).
+@inproceedings{bragg2026astabench,
+  author    = {Bragg, Jonathan and others},
+  title     = {{AstaBench}: Rigorous Benchmarking of {AI} Agents with a Scientific Research Suite},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2026}, eprint = {2510.21652}, archivePrefix = {arXiv}
+}
+@article{nathani2025mlgym,
+  author  = {Nathani, Deepak and others},
+  title   = {{MLGym}: A New Framework and Benchmark for Advancing {AI} Research Agents},
+  journal = {arXiv preprint arXiv:2502.14499}, year = {2025}
+}
+@article{kon2025expbench,
+  author  = {Kon, Patrick Tser Jern and others},
+  title   = {{EXP-Bench}: Can {AI} Conduct {AI} Research Experiments?},
+  journal = {arXiv preprint arXiv:2505.24785}, year = {2025}
+}
+@article{schmidgall2025agentlab,
+  author  = {Schmidgall, Samuel and others},
+  title   = {Agent Laboratory: Using {LLM} Agents as Research Assistants},
+  journal = {arXiv preprint arXiv:2501.04227}, year = {2025}
+}
+@article{gottweis2025coscientist,
+  author  = {Gottweis, Juraj and others},
+  title   = {Accelerating Scientific Discovery with {Co-Scientist}},
+  journal = {Nature}, year = {2026}, doi = {10.1038/s41586-026-10644-y},
+  note    = {Preprint: arXiv:2502.18864}
+}
+
+% ---------------------------------------------------------------- general agent benchmarks (methodology)
+@inproceedings{liu2024agentbench,
+  author    = {Liu, Xiao and Yu, Hao and Zhang, Hanchen and others},
+  title     = {{AgentBench}: Evaluating {LLMs} as Agents},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024}, eprint = {2308.03688}, archivePrefix = {arXiv}
+}
+@inproceedings{jimenez2024swebench,
+  author    = {Jimenez, Carlos E. and Yang, John and Wettig, Alexander and Yao, Shunyu and Pei, Kexin and Press, Ofir and Narasimhan, Karthik},
+  title     = {{SWE}-bench: Can Language Models Resolve Real-World {GitHub} Issues?},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2024}, eprint = {2310.06770}, archivePrefix = {arXiv}
+}
+@article{deng2025swebenchpro,
+  author  = {Deng, Xiang and Da, Jeff and Pan, Edwin and others},
+  title   = {{SWE-Bench Pro}: Can {AI} Agents Solve Long-Horizon Software Engineering Tasks?},
+  journal = {arXiv preprint arXiv:2509.16941}, year = {2025}
+}
+@inproceedings{xie2024osworld,
+  author    = {Xie, Tianbao and Zhang, Danyang and Chen, Jixuan and others},
+  title     = {{OSWorld}: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track},
+  year      = {2024}, eprint = {2404.07972}, archivePrefix = {arXiv}
+}
+@article{yao2024tau,
+  author  = {Yao, Shunyu and Shinn, Noah and Razavi, Pedram and Narasimhan, Karthik},
+  title   = {$\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains},
+  journal = {arXiv preprint arXiv:2406.12045}, year = {2024}
+}
+@article{wei2025browsecomp,
+  author  = {Wei, Jason and Sun, Zhiqing and Papay, Spencer and others},
+  title   = {{BrowseComp}: A Simple Yet Challenging Benchmark for Browsing Agents},
+  journal = {arXiv preprint arXiv:2504.12516}, year = {2025}
+}
+
+% ---------------------------------------------------------------- scientific knowledge and coding
+@inproceedings{rein2024gpqa,
+  author    = {Rein, David and Hou, Betty Li and Stickland, Asa Cooper and Petty, Jackson and Pang, Richard Yuanzhe and Dirani, Julien and Michael, Julian and Bowman, Samuel R.},
+  title     = {{GPQA}: A Graduate-Level Google-Proof {Q\&A} Benchmark},
+  booktitle = {First Conference on Language Modeling (COLM)},
+  year      = {2024}, eprint = {2311.12022}, archivePrefix = {arXiv}
+}
+@article{glazer2024frontiermath,
+  author  = {Glazer, Elliot and Erdil, Ege and Besiroglu, Tamay and others},
+  title   = {{FrontierMath}: A Benchmark for Evaluating Advanced Mathematical Reasoning in {AI}},
+  journal = {arXiv preprint arXiv:2411.04872}, year = {2024}
+}
+@inproceedings{tian2024scicode,
+  author    = {Tian, Minyang and Gao, Luyu and Zhang, Shizhuo Dylan and others},
+  title     = {{SciCode}: A Research Coding Benchmark Curated by Scientists},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track},
+  year      = {2024}, eprint = {2407.13168}, archivePrefix = {arXiv}
+}
+@inproceedings{jain2025livecodebench,
+  author    = {Jain, Naman and Han, King and Gu, Alex and Li, Wen-Ding and Yan, Fanjia and Zhang, Tianjun and Wang, Sida and Solar-Lezama, Armando and Sen, Koushik and Stoica, Ion},
+  title     = {{LiveCodeBench}: Holistic and Contamination Free Evaluation of Large Language Models for Code},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  year      = {2025}, eprint = {2403.07974}, archivePrefix = {arXiv}
+}
+@article{phan2026hle,
+  author  = {{Center for AI Safety} and Phan, Long and Gatti, Alice and others},
+  title   = {A Benchmark of Expert-Level Academic Questions to Assess {AI} Capabilities},
+  journal = {Nature}, volume = {649}, number = {8099}, pages = {1139--1146}, year = {2026},
+  doi     = {10.1038/s41586-025-09962-4},
+  note    = {Also known as Humanity's Last Exam, arXiv:2501.14249}
+}
+
+% ---------------------------------------------------------------- infrastructure
+@inproceedings{zheng2024sglang,
+  author    = {Zheng, Lianmin and Yin, Liangsheng and Xie, Zhiqiang and Sun, Chuyue and Huang, Jeff and Yu, Cody Hao and Cao, Shiyi and Kozyrakis, Christos and Stoica, Ion and Gonzalez, Joseph E. and Barrett, Clark and Sheng, Ying},
+  title     = {{SGLang}: Efficient Execution of Structured Language Model Programs},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {37}, pages = {62557--62583}, year = {2024},
+  doi       = {10.52202/079017-2000}, eprint = {2312.07104}, archivePrefix = {arXiv}
+}
+
+% ---------------------------------------------------------------- second search round (2026-10-26): OpenReview and domain searches.
+% Built from arXiv / OpenReview search records; OpenReview entries for anonymous ICLR 2027 submissions list "Anonymous".
+@article{li2024critical,
+  author  = {Li, Michael Y. and Vajipey, Vivek and Goodman, Noah D. and Fox, Emily B.},
+  title   = {{CriticAL}: Critic Automation with Language Models},
+  journal = {arXiv preprint arXiv:2411.06590}, year = {2024}
+}
+@inproceedings{li2024automated,
+  author    = {Li, Michael Y. and Fox, Emily B. and Goodman, Noah D.},
+  title     = {Automated Statistical Model Discovery with Language Models},
+  booktitle = {International Conference on Machine Learning (ICML)}, year = {2024},
+  eprint    = {2402.17879}, archivePrefix = {arXiv}
+}
+@inproceedings{oikonomou2026verifier,
+  author    = {Oikonomou, Orestis and Raonic, Bogdan},
+  title     = {The Verifier Is Part of the Simulator: Evidence-View Gaming in Agentic Equation Discovery},
+  booktitle = {NeurIPS 2026 Workshop on Simulation for Science (Sim2Sci)}, year = {2026},
+  url       = {https://openreview.net/forum?id=JwevoCsjyR}
+}
+@inproceedings{berman2026solver2system,
+  author    = {Berman, Eliza H. and Subramanian, Rohan and Jha, Shreya and Jagarapu, Lohit and Ranganath, Rajesh},
+  title     = {Solver to System: {LLM} Reasoning Across Representations and Execution in Scientific Simulation},
+  booktitle = {NeurIPS 2026 Workshop on Simulation for Science (Sim2Sci)}, year = {2026},
+  url       = {https://openreview.net/forum?id=LSJ237EhQL}
+}
+@inproceedings{lamb2026esm,
+  author    = {Lamb, Kara D.},
+  title     = {Can {LLM} Agents Improve Imperfect Parameterizations in {E}arth System Models?},
+  booktitle = {NeurIPS 2026 Workshop on Simulation for Science (Sim2Sci)}, year = {2026},
+  url       = {https://openreview.net/forum?id=r759nf5oK8}
+}
+@misc{anon2026fasim,
+  title  = {Agentic Simulator Construction with Falsification-Guided Structural Diagnosis},
+  note   = {Submitted to ICLR 2027 (double-blind review), OpenReview}, year = {2026}, url = {https://openreview.net/forum?id=Iin8ijZhoS}
+}
+@misc{anon2026bkbagent,
+  title  = {{BKBAgent}: A Battery Parameter Identification Agent with {B}ayesian Experimental Design and Knowledge Graph},
+  note   = {Submitted to ICLR 2027 (double-blind review), OpenReview}, year = {2026}, url = {https://openreview.net/forum?id=whcg806KGZ}
+}
+@article{murphy2026mda,
+  author  = {Murphy, Kevin},
+  title   = {Model Discovery Agent: {LLM}-assisted {B}ayesian Experiment Design for Data-Efficient Discovery of Mechanistic World Models},
+  journal = {arXiv preprint arXiv:2608.09696}, year = {2026},
+  note    = {Also submitted to ICLR 2027, https://openreview.net/forum?id=yAUf6aSeyA}
+}
+@misc{anon2026urbansurface,
+  title  = {{UrbanSurface-Agent}: Physics-Gated Scientific Reasoning for Urban Surface Parameterization},
+  note   = {Submitted to ICLR 2027 (double-blind review), OpenReview}, year = {2026}, url = {https://openreview.net/forum?id=halLjo0pgM}
+}
+@misc{anon2026neutrongym,
+  title  = {{NeutronGym}: Physics-Graded Neutron Instrument Design for {LLM} Agents},
+  note   = {Submitted to ICLR 2027 (double-blind review), OpenReview}, year = {2026}, url = {https://openreview.net/forum?id=1NbQZX0zFY}
+}
+@misc{anon2026mdgym,
+  author = {Kumar, Vinay and Rajput, Satyendra and Mausam and Krishnan, N. M. Anoop},
+  title  = {{MDGym}: Benchmarking {AI} Agents on Molecular Simulations},
+  howpublished = {arXiv:2605.08941}, year = {2026}, url = {https://arxiv.org/abs/2605.08941}
+}
+@misc{anon2026rulers,
+  title  = {Rulers, Not Meters: Discovering Falsifiable World Models through Active Visual Experimentation},
+  note   = {Submitted to ICLR 2027 (double-blind review), OpenReview}, year = {2026}, url = {https://openreview.net/forum?id=CoeLshClcT}
+}
+@misc{zhang2025caed,
+  author = {Zhang, Yang and Cao, Yadi and Sun, Sophia Huiwen and Yu, Rose},
+  title  = {{CAED}-Agent: An Agentic Framework to Automate Simulation-Based Experimental Design},
+  note   = {Submitted to ICLR 2026}, year = {2025}, url = {https://openreview.net/forum?id=nGihWDdQFI}
+}
+@inproceedings{kabra2026autoscilab,
+  author    = {Kabra, Sanchit and Abhyankar, Nikhil and Desai, Saaketh and Iyer, Prasad and Reddy, Chandan K.},
+  title     = {{LLM-AutoSciLab}: Closed-Loop Scientific Discovery via Active Experimentation with {LLMs}},
+  booktitle = {COLM 2026 Workshop AIMS}, year = {2026}, url = {https://openreview.net/forum?id=nDYUgqv7dx},
+  note      = {arXiv:2605.24043}
+}
+@inproceedings{choudhury2026bedllm,
+  author    = {Choudhury, Deepro and Williamson, Sinead and Goli{\'n}ski, Adam and Miao, Ning and Bickford Smith, Freddie and Kirchhof, Michael and Zhang, Yizhe and Rainforth, Tom},
+  title     = {{BED-LLM}: Intelligent Information Gathering with {LLMs} and {B}ayesian Experimental Design},
+  booktitle = {International Conference on Learning Representations (ICLR)}, year = {2026},
+  eprint    = {2508.21184}, archivePrefix = {arXiv}
+}
+@article{somasekharan2026cfdllmbench,
+  author  = {Somasekharan, Nithin and Yue, Ling and Cao, Yadi and Li, Weichao and Emami, Patrick and Bhargav, Pochinapeddi Sai and Acharya, Anurag and Xie, Xingyu and Pan, Shaowu},
+  title   = {{CFDLLMBench}: A Benchmark Suite for Evaluating Large Language Models in Computational Fluid Dynamics},
+  journal = {Journal of Data-centric Machine Learning Research}, year = {2026}, note = {arXiv:2509.20374}
+}
+@article{hang2026pdeagentbench,
+  author  = {Hang, Zhen and others},
+  title   = {{PDEAgent-Bench}: A Multi-Metric, Multi-Library Benchmark for {PDE} Solver Generation},
+  journal = {arXiv preprint arXiv:2605.09636}, year = {2026}
+}
+@article{yue2026foamagent,
+  author  = {Yue, Ling and Somasekharan, Nithin and Zhang, Tingwen and Cao, Yadi and Chen, Zhangze and Di, Shimin and Pan, Shaowu},
+  title   = {{Foam-Agent}: A Large Language Model-Based Multi-Agent Framework for Automating Computational Fluid Dynamics Workflows},
+  journal = {Computer Methods in Applied Mechanics and Engineering}, volume = {461}, pages = {119271}, year = {2026}
+}
+@article{piga2026asia,
+  author  = {Piga, Dario and Forgione, Marco},
+  title   = {{ASIA}: An Autonomous System Identification Agent},
+  journal = {arXiv preprint arXiv:2605.10480}, year = {2026}
+}
+@article{qin2026quantsightbench,
+  author  = {Qin, Jeremy and Andriushchenko, Maksym},
+  title   = {{QuantSightBench}: Evaluating {LLM} Quantitative Forecasting with Prediction Intervals},
+  journal = {arXiv preprint arXiv:2604.15859}, year = {2026}
+}
+@inproceedings{requeima2024llmprocesses,
+  author    = {Requeima, James and Bronskill, John and Choi, Dami and Turner, Richard E. and Duvenaud, David},
+  title     = {{LLM} Processes: Numerical Predictive Distributions Conditioned on Natural Language},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)}, year = {2024},
+  eprint    = {2405.12856}, archivePrefix = {arXiv}
+}
+@inproceedings{zhang2026agentic,
+  author    = {Zhang, Jiaxin and Xiong, Caiming and Wu, Chien-Sheng},
+  title     = {Agentic Confidence Calibration},
+  booktitle = {International Conference on Machine Learning (ICML)}, year = {2026},
+  url       = {https://openreview.net/forum?id=B1ISNZQHuI}
+}
+@article{luo2026agentic,
+  author  = {Luo, Han and Wen, Bingbing and Wang, Lucy Lu},
+  title   = {Agentic Abstention: Do Agents Know When to Stop Instead of Act?},
+  journal = {arXiv preprint arXiv:2606.28733}, year = {2026}
+}
+@article{liu2025cart,
+  author  = {Liu, Grace and Qu, Yuxiao and Schneider, Jeff and Singh, Aarti and Kumar, Aviral},
+  title   = {{CaRT}: Teaching {LLM} Agents to Know When They Know Enough},
+  journal = {arXiv preprint arXiv:2510.08517}, year = {2025}
+}
+@article{ding2026calibratethenact,
+  author  = {Ding, Wenxuan and Tomlin, Nicholas and Durrett, Greg},
+  title   = {Calibrate-Then-Act: Cost-Aware Exploration in {LLM} Agents},
+  journal = {arXiv preprint arXiv:2602.16699}, year = {2026}
+}
+@inproceedings{yantovskibarth2026precision,
+  author    = {Yantovski-Barth, Matthew and others},
+  title     = {When Precision Exceeds Fidelity: Systematic Error Quantification for Inference with Misspecified Simulators},
+  booktitle = {NeurIPS 2026 Workshop on Simulation for Science (Sim2Sci)}, year = {2026},
+  url       = {https://openreview.net/forum?id=ll67qUJPif}
+}
+
+% ---------------------------------------------------------------- second search round: general web search (arXiv/lab pages verified)
+@article{frochte2026modelica,
+  author  = {Frochte, J{\"o}rg and Schmidt, Herbert},
+  title   = {{LLM} Agents as Suppliers of Physical System Models: Calibration and Acceptance in {M}odelica},
+  journal = {arXiv preprint arXiv:2610.25019}, year = {2026}
+}
+@article{wiemann2026discoverphysics,
+  author  = {Wiemann, Matt L. and others},
+  title   = {{DiscoverPhysics}: Benchmarking {LLMs} for Out-of-the-Box Scientific Thinking},
+  journal = {arXiv preprint arXiv:2605.26087}, year = {2026}
+}
+@article{shetty2026llmidea,
+  author  = {Shetty, Surya and Braga-Neto, Ulisses},
+  title   = {{LLM-IDEA}: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models},
+  journal = {arXiv preprint arXiv:2610.11253}, year = {2026}
+}
+@article{ma2026outgrow,
+  author  = {Ma, SiYuan and others},
+  title   = {Learning to Outgrow a Theory: Experimental Discovery Beyond the Initial Hypothesis Space},
+  journal = {arXiv preprint arXiv:2610.07627}, year = {2026}
+}
+@article{gomez2026agentic,
+  author  = {G{\'o}mez-Guill{\'e}n, David and others},
+  title   = {Agentic Calibration of Grey-Box Simulation Models: An {LLM}-Driven Alternative},
+  journal = {arXiv preprint arXiv:2607.18308}, year = {2026}
+}
+@article{jaffe2026tasteval,
+  author  = {Jaffe, Oliver and Sherburn, Dane},
+  title   = {{TasteVal}: Measuring the Experimental Research Taste of {AI} Systems Against Human Experts},
+  journal = {arXiv preprint arXiv:2610.06824}, year = {2026}
+}
+@article{sun2026scipivot,
+  author  = {Sun, Youran and others},
+  title   = {{Sci$\Pi$vot}: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents},
+  journal = {arXiv preprint arXiv:2610.21082}, year = {2026}
+}
+@article{xu2026calibration,
+  author  = {Xu, Jian and others},
+  title   = {Calibration, Not Compilation: Detecting and Repairing Misspecified Probabilistic Programs Written by Language Models},
+  journal = {arXiv preprint arXiv:2606.31630}, year = {2026}
+}
+@inproceedings{cherian2026llmphy,
+  author    = {Cherian, Anoop and Corcodel, Radu and Jain, Siddarth and Romeres, Diego},
+  title     = {{LLMPhy}: Parameter-Identifiable Physical Reasoning Combining Large Language Models and Physics Engines},
+  booktitle = {International Conference on Artificial Intelligence and Statistics (AISTATS)}, year = {2026},
+  eprint    = {2411.08027}, archivePrefix = {arXiv}
+}
+@inproceedings{holt2025gsim,
+  author    = {Holt, Samuel and Ruiz Luyten, Max and Berthon, Antonin and van der Schaar, Mihaela},
+  title     = {{G-Sim}: Generative Simulations with Large Language Models and Gradient-Free Calibration},
+  booktitle = {International Conference on Machine Learning (ICML)}, year = {2025},
+  eprint    = {2506.09272}, archivePrefix = {arXiv}
+}
+@misc{baig2026taste,
+  author       = {Baig, Hasan and Joren, Hailey and Benton, Joe},
+  title        = {{TASTE}: Can {AI} Models Judge {AI} Safety Research Proposals?},
+  howpublished = {Anthropic Alignment Science Blog}, year = {2026},
+  url          = {https://alignment.anthropic.com/2026/taste/}, note = {Blog post, 28 August 2026}
+}
+@article{mitchener2025kosmos,
+  author  = {Mitchener, Ludovico and others},
+  title   = {Kosmos: An {AI} Scientist for Autonomous Discovery},
+  journal = {arXiv preprint arXiv:2511.02824}, year = {2025}
+}
+@article{cowan1963pulse,
+  author  = {Cowan, Robert D.},
+  title   = {Pulse Method of Measuring Thermal Diffusivity at High Temperatures},
+  journal = {Journal of Applied Physics},
+  volume  = {34}, number = {4}, pages = {926--927}, year = {1963},
+  doi     = {10.1063/1.1729564}
+}
+@misc{astm2022e1461,
+  author       = {{ASTM International}},
+  title        = {Standard Test Method for Thermal Diffusivity by the Flash Method ({ASTM} {E1461}-13, reapproved 2022)},
+  howpublished = {ASTM International, West Conshohocken, PA},
+  year         = {2022},
+  doi          = {10.1520/E1461-13R22}
+}
+@article{cahill1990three,
+  author  = {Cahill, David G.},
+  title   = {Thermal Conductivity Measurement from 30 to 750 {K}: The 3$\omega$ Method},
+  journal = {Review of Scientific Instruments},
+  volume  = {61}, number = {2}, pages = {802--808}, year = {1990},
+  doi     = {10.1063/1.1141498}
+}
+@article{cahill2004tdtr,
+  author  = {Cahill, David G.},
+  title   = {Analysis of Heat Flow in Layered Structures for Time-Domain Thermoreflectance},
+  journal = {Review of Scientific Instruments},
+  volume  = {75}, number = {12}, pages = {5119--5122}, year = {2004},
+  doi     = {10.1063/1.1819431}
+}

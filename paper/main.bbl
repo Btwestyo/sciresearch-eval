@@ -1,0 +1,619 @@
+\begin{thebibliography}{86}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Lu et~al.(2026)Lu, Lu, Lange, Yamada, Hu, Foerster, Ha, and
+  Clune]{lu2026towards}
+Chris Lu, Cong Lu, Robert~Tjarko Lange, Yutaro Yamada, Shengran Hu, Jakob
+  Foerster, David Ha, and Jeff Clune.
+\newblock Towards end-to-end automation of {AI} research.
+\newblock \emph{Nature}, 651\penalty0 (8107):\penalty0 914--919, 2026.
+\newblock \doi{10.1038/s41586-026-10265-5}.
+
+\bibitem[Gottweis et~al.(2026)]{gottweis2025coscientist}
+Juraj Gottweis et~al.
+\newblock Accelerating scientific discovery with {Co-Scientist}.
+\newblock \emph{Nature}, 2026.
+\newblock \doi{10.1038/s41586-026-10644-y}.
+\newblock Preprint: arXiv:2502.18864.
+
+\bibitem[Chen et~al.(2025{\natexlab{a}})Chen, Chen, Ning, Zhang, Wang, Yu, Li,
+  Liao, Wei, Lu, Dey, Xue, Baker, Burns, Adu-Ampratwum, Huang, Ning, Gao, Su,
+  and Sun]{chen2025scienceagentbench}
+Ziru Chen, Shijie Chen, Yuting Ning, Qianheng Zhang, Boshi Wang, Botao Yu,
+  Yifei Li, Zeyi Liao, Chen Wei, Zitong Lu, Vishal Dey, Mingyi Xue, Frazier~N.
+  Baker, Benjamin Burns, Daniel Adu-Ampratwum, Xuhui Huang, Xia Ning, Song Gao,
+  Yu~Su, and Huan Sun.
+\newblock {ScienceAgentBench}: Toward rigorous assessment of language agents
+  for data-driven scientific discovery.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025{\natexlab{a}}.
+
+\bibitem[Siegel et~al.(2024)Siegel, Kapoor, Nadgir, Stroebl, and
+  Narayanan]{siegel2024corebench}
+Zachary~S. Siegel, Sayash Kapoor, Nitya Nadgir, Benedikt Stroebl, and Arvind
+  Narayanan.
+\newblock {CORE}-bench: Fostering the credibility of published research through
+  a computational reproducibility agent benchmark.
+\newblock \emph{Transactions on Machine Learning Research}, 2024.
+
+\bibitem[Chan et~al.(2025)Chan, Chowdhury, Jaffe, Aung, Sherburn, Mays,
+  Starace, Liu, Maksin, Patwardhan, Weng, and M{\k{a}}dry]{chan2025mlebench}
+Jun~Shern Chan, Neil Chowdhury, Oliver Jaffe, James Aung, Dane Sherburn, Evan
+  Mays, Giulio Starace, Kevin Liu, Leon Maksin, Tejal Patwardhan, Lilian Weng,
+  and Aleksander M{\k{a}}dry.
+\newblock {MLE}-bench: Evaluating machine learning agents on machine learning
+  engineering.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+
+\bibitem[Wijk et~al.(2025)Wijk, Lin, Becker, Jawhar, Parikh, Broadley,
+  et~al.]{wijk2025rebench}
+Hjalmar Wijk, Tao~Roa Lin, Joel Becker, Sami Jawhar, Neev Parikh, Thomas
+  Broadley, et~al.
+\newblock {RE}-bench: Evaluating frontier {AI} {R\&D} capabilities of language
+  model agents against human experts.
+\newblock In \emph{Proceedings of the 42nd International Conference on Machine
+  Learning (ICML)}, volume 267 of \emph{PMLR}, pages 66772--66832, 2025.
+
+\bibitem[Zheng et~al.(2026)Zheng, Tam, Nguyen, Xu,
+  et~al.]{zheng2026newtonbench}
+Tianshi Zheng, Kelvin Kiu-Wai Tam, Newt Hue-Nam~K. Nguyen, Baixuan Xu, et~al.
+\newblock {NewtonBench}: Benchmarking generalizable scientific law discovery in
+  {LLM} agents.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2026.
+
+\bibitem[Jansen et~al.(2024)Jansen, C{\^o}t{\'e}, Khot, Bransom, Dalvi~Mishra,
+  Majumder, Tafjord, and Clark]{jansen2024discoveryworld}
+Peter Jansen, Marc-Alexandre C{\^o}t{\'e}, Tushar Khot, Erin Bransom, Bhavana
+  Dalvi~Mishra, Bodhisattwa~Prasad Majumder, Oyvind Tafjord, and Peter Clark.
+\newblock {DiscoveryWorld}: A virtual environment for developing and evaluating
+  automated scientific discovery agents.
+\newblock In \emph{Advances in Neural Information Processing Systems (NeurIPS),
+  Datasets and Benchmarks Track}, 2024.
+
+\bibitem[Gandhi et~al.(2025)Gandhi, Li, Goodyear, Bhatia, Li, Bhaskar, Zaman,
+  and Goodman]{gandhi2025boxinggym}
+Kanishk Gandhi, Michael~Y. Li, Lyle Goodyear, Agam Bhatia, Louise Li, Aditi
+  Bhaskar, Mohammed Zaman, and Noah~D. Goodman.
+\newblock {BoxingGym}: Benchmarking progress in automated experimental design
+  and model discovery.
+\newblock \emph{arXiv preprint arXiv:2501.01540}, 2025.
+
+\bibitem[Parker et~al.(1961)Parker, Jenkins, Butler, and
+  Abbott]{parker1961flash}
+W.~J. Parker, R.~J. Jenkins, C.~P. Butler, and G.~L. Abbott.
+\newblock Flash method of determining thermal diffusivity, heat capacity, and
+  thermal conductivity.
+\newblock \emph{Journal of Applied Physics}, 32\penalty0 (9):\penalty0
+  1679--1684, 1961.
+\newblock \doi{10.1063/1.1728417}.
+
+\bibitem[{ASTM International}(2022)]{astm2022e1461}
+{ASTM International}.
+\newblock Standard test method for thermal diffusivity by the flash method
+  ({ASTM} {E1461}-13, reapproved 2022).
+\newblock ASTM International, West Conshohocken, PA, 2022.
+
+\bibitem[Cahill(1990)]{cahill1990three}
+David~G. Cahill.
+\newblock Thermal conductivity measurement from 30 to 750 {K}: The 3$\omega$
+  method.
+\newblock \emph{Review of Scientific Instruments}, 61\penalty0 (2):\penalty0
+  802--808, 1990.
+\newblock \doi{10.1063/1.1141498}.
+
+\bibitem[Cahill(2004)]{cahill2004tdtr}
+David~G. Cahill.
+\newblock Analysis of heat flow in layered structures for time-domain
+  thermoreflectance.
+\newblock \emph{Review of Scientific Instruments}, 75\penalty0 (12):\penalty0
+  5119--5122, 2004.
+\newblock \doi{10.1063/1.1819431}.
+
+\bibitem[Cowan(1963)]{cowan1963pulse}
+Robert~D. Cowan.
+\newblock Pulse method of measuring thermal diffusivity at high temperatures.
+\newblock \emph{Journal of Applied Physics}, 34\penalty0 (4):\penalty0
+  926--927, 1963.
+\newblock \doi{10.1063/1.1729564}.
+
+\bibitem[Wiemann et~al.(2026)]{wiemann2026discoverphysics}
+Matt~L. Wiemann et~al.
+\newblock {DiscoverPhysics}: Benchmarking {LLMs} for out-of-the-box scientific
+  thinking.
+\newblock \emph{arXiv preprint arXiv:2605.26087}, 2026.
+
+\bibitem[Berman et~al.(2026)Berman, Subramanian, Jha, Jagarapu, and
+  Ranganath]{berman2026solver2system}
+Eliza~H. Berman, Rohan Subramanian, Shreya Jha, Lohit Jagarapu, and Rajesh
+  Ranganath.
+\newblock Solver to system: {LLM} reasoning across representations and
+  execution in scientific simulation.
+\newblock In \emph{NeurIPS 2026 Workshop on Simulation for Science (Sim2Sci)},
+  2026.
+\newblock URL \url{https://openreview.net/forum?id=LSJ237EhQL}.
+
+\bibitem[Oikonomou and Raonic(2026)]{oikonomou2026verifier}
+Orestis Oikonomou and Bogdan Raonic.
+\newblock The verifier is part of the simulator: Evidence-view gaming in
+  agentic equation discovery.
+\newblock In \emph{NeurIPS 2026 Workshop on Simulation for Science (Sim2Sci)},
+  2026.
+\newblock URL \url{https://openreview.net/forum?id=JwevoCsjyR}.
+
+\bibitem[Frochte and Schmidt(2026)]{frochte2026modelica}
+J{\"o}rg Frochte and Herbert Schmidt.
+\newblock {LLM} agents as suppliers of physical system models: Calibration and
+  acceptance in {M}odelica.
+\newblock \emph{arXiv preprint arXiv:2610.25019}, 2026.
+
+\bibitem[Epstein et~al.(2025)Epstein, Winnicki, Sornwanee, and
+  Dwaraknath]{epstein2025fermieval}
+Elliot~L. Epstein, John Winnicki, Thanawat Sornwanee, and Rajat Dwaraknath.
+\newblock {LLMs} are overconfident: Evaluating confidence interval calibration
+  with {FermiEval}.
+\newblock \emph{arXiv preprint arXiv:2510.26995}, 2025.
+
+\bibitem[Qin and Andriushchenko(2026)]{qin2026quantsightbench}
+Jeremy Qin and Maksym Andriushchenko.
+\newblock {QuantSightBench}: Evaluating {LLM} quantitative forecasting with
+  prediction intervals.
+\newblock \emph{arXiv preprint arXiv:2604.15859}, 2026.
+
+\bibitem[Gneiting and Raftery(2007)]{gneiting2007strictly}
+Tilmann Gneiting and Adrian~E. Raftery.
+\newblock Strictly proper scoring rules, prediction, and estimation.
+\newblock \emph{Journal of the American Statistical Association}, 102\penalty0
+  (477):\penalty0 359--378, 2007.
+\newblock \doi{10.1198/016214506000001437}.
+
+\bibitem[Zheng et~al.(2024)Zheng, Yin, Xie, Sun, Huang, Yu, Cao, Kozyrakis,
+  Stoica, Gonzalez, Barrett, and Sheng]{zheng2024sglang}
+Lianmin Zheng, Liangsheng Yin, Zhiqiang Xie, Chuyue Sun, Jeff Huang, Cody~Hao
+  Yu, Shiyi Cao, Christos Kozyrakis, Ion Stoica, Joseph~E. Gonzalez, Clark
+  Barrett, and Ying Sheng.
+\newblock {SGLang}: Efficient execution of structured language model programs.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, volume~37, pages 62557--62583, 2024.
+\newblock \doi{10.52202/079017-2000}.
+
+\bibitem[Brynjarsd{\'o}ttir and O'Hagan(2014)]{brynjarsdottir2014learning}
+Jenn{\'y} Brynjarsd{\'o}ttir and Anthony O'Hagan.
+\newblock Learning about physical parameters: The importance of model
+  discrepancy.
+\newblock \emph{Inverse Problems}, 30\penalty0 (11):\penalty0 114007, 2014.
+\newblock \doi{10.1088/0266-5611/30/11/114007}.
+
+\bibitem[Chen et~al.(2025{\natexlab{b}})Chen, Pi{\k{e}}kos, Ostaszewski,
+  Laakom, and Schmidhuber]{chen2025physgym}
+Yimeng Chen, Piotr Pi{\k{e}}kos, Mateusz Ostaszewski, Firas Laakom, and
+  J{\"u}rgen Schmidhuber.
+\newblock {PhysGym}: Benchmarking {LLMs} in interactive physics discovery with
+  controlled priors.
+\newblock \emph{arXiv preprint arXiv:2507.15550}, 2025{\natexlab{b}}.
+
+\bibitem[Majumder et~al.(2025)Majumder, Surana, Agarwal, Dalvi~Mishra, Meena,
+  Prakhar, Vora, Khot, Sabharwal, and Clark]{majumder2025discoverybench}
+Bodhisattwa~Prasad Majumder, Harshit Surana, Dhruv Agarwal, Bhavana
+  Dalvi~Mishra, Abhijeetsingh Meena, Aryan Prakhar, Tirth Vora, Tushar Khot,
+  Ashish Sabharwal, and Peter Clark.
+\newblock {DiscoveryBench}: Towards data-driven discovery with large language
+  models.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+
+\bibitem[Bragg et~al.(2026)]{bragg2026astabench}
+Jonathan Bragg et~al.
+\newblock {AstaBench}: Rigorous benchmarking of {AI} agents with a scientific
+  research suite.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2026.
+
+\bibitem[Nathani et~al.(2025)]{nathani2025mlgym}
+Deepak Nathani et~al.
+\newblock {MLGym}: A new framework and benchmark for advancing {AI} research
+  agents.
+\newblock \emph{arXiv preprint arXiv:2502.14499}, 2025.
+
+\bibitem[Kon et~al.(2025)]{kon2025expbench}
+Patrick Tser~Jern Kon et~al.
+\newblock {EXP-Bench}: Can {AI} conduct {AI} research experiments?
+\newblock \emph{arXiv preprint arXiv:2505.24785}, 2025.
+
+\bibitem[Schmidgall et~al.(2025)]{schmidgall2025agentlab}
+Samuel Schmidgall et~al.
+\newblock Agent laboratory: Using {LLM} agents as research assistants.
+\newblock \emph{arXiv preprint arXiv:2501.04227}, 2025.
+
+\bibitem[Lu et~al.(2024)Lu, Lu, Lange, Foerster, Clune, and
+  Ha]{lu2024aiscientist}
+Chris Lu, Cong Lu, Robert~Tjarko Lange, Jakob Foerster, Jeff Clune, and David
+  Ha.
+\newblock The {AI} scientist: Towards fully automated open-ended scientific
+  discovery.
+\newblock \emph{arXiv preprint arXiv:2408.06292}, 2024.
+
+\bibitem[Yamada et~al.(2025)Yamada, Lange, Lu, Hu, Lu, Foerster, Clune, and
+  Ha]{yamada2025aiscientistv2}
+Yutaro Yamada, Robert~Tjarko Lange, Cong Lu, Shengran Hu, Chris Lu, Jakob
+  Foerster, Jeff Clune, and David Ha.
+\newblock The {AI} scientist-v2: Workshop-level automated scientific discovery
+  via agentic tree search.
+\newblock \emph{arXiv preprint arXiv:2504.08066}, 2025.
+
+\bibitem[Mitchener et~al.(2025)]{mitchener2025kosmos}
+Ludovico Mitchener et~al.
+\newblock Kosmos: An {AI} scientist for autonomous discovery.
+\newblock \emph{arXiv preprint arXiv:2511.02824}, 2025.
+
+\bibitem[Jaffe and Sherburn(2026)]{jaffe2026tasteval}
+Oliver Jaffe and Dane Sherburn.
+\newblock {TasteVal}: Measuring the experimental research taste of {AI} systems
+  against human experts.
+\newblock \emph{arXiv preprint arXiv:2610.06824}, 2026.
+
+\bibitem[Sun et~al.(2026)]{sun2026scipivot}
+Youran Sun et~al.
+\newblock {Sci$\Pi$vot}: Benchmarking principal-investigator judgment at
+  pivotal moments of scientific autoresearch agents.
+\newblock \emph{arXiv preprint arXiv:2610.21082}, 2026.
+
+\bibitem[Baig et~al.(2026)Baig, Joren, and Benton]{baig2026taste}
+Hasan Baig, Hailey Joren, and Joe Benton.
+\newblock {TASTE}: Can {AI} models judge {AI} safety research proposals?
+\newblock Anthropic Alignment Science Blog, 2026.
+\newblock URL \url{https://alignment.anthropic.com/2026/taste/}.
+\newblock Blog post, 28 August 2026.
+
+\bibitem[Kabra et~al.(2026)Kabra, Abhyankar, Desai, Iyer, and
+  Reddy]{kabra2026autoscilab}
+Sanchit Kabra, Nikhil Abhyankar, Saaketh Desai, Prasad Iyer, and Chandan~K.
+  Reddy.
+\newblock {LLM-AutoSciLab}: Closed-loop scientific discovery via active
+  experimentation with {LLMs}.
+\newblock In \emph{COLM 2026 Workshop AIMS}, 2026.
+\newblock URL \url{https://openreview.net/forum?id=nDYUgqv7dx}.
+\newblock arXiv:2605.24043.
+
+\bibitem[ano(2026{\natexlab{a}})]{anon2026rulers}
+Rulers, not meters: Discovering falsifiable world models through active visual
+  experimentation, 2026{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=CoeLshClcT}.
+\newblock Submitted to ICLR 2027 (double-blind review), OpenReview.
+
+\bibitem[Huang et~al.(2025)Huang, Jin, Li, Li, Cand{\`e}s, and
+  Leskovec]{huang2025popper}
+Kexin Huang, Ying Jin, Ryan Li, Michael~Y. Li, Emmanuel Cand{\`e}s, and Jure
+  Leskovec.
+\newblock Automated hypothesis validation with agentic sequential
+  falsifications.
+\newblock \emph{arXiv preprint arXiv:2502.09858}, 2025.
+
+\bibitem[Choudhury et~al.(2026)Choudhury, Williamson, Goli{\'n}ski, Miao,
+  Bickford~Smith, Kirchhof, Zhang, and Rainforth]{choudhury2026bedllm}
+Deepro Choudhury, Sinead Williamson, Adam Goli{\'n}ski, Ning Miao, Freddie
+  Bickford~Smith, Michael Kirchhof, Yizhe Zhang, and Tom Rainforth.
+\newblock {BED-LLM}: Intelligent information gathering with {LLMs} and
+  {B}ayesian experimental design.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2026.
+
+\bibitem[Murphy(2026)]{murphy2026mda}
+Kevin Murphy.
+\newblock Model discovery agent: {LLM}-assisted {B}ayesian experiment design
+  for data-efficient discovery of mechanistic world models.
+\newblock \emph{arXiv preprint arXiv:2608.09696}, 2026.
+\newblock Also submitted to ICLR 2027,
+  https://openreview.net/forum?id=yAUf6aSeyA.
+
+\bibitem[Yuh et~al.(2026)Yuh, Park, Choi, Baek, Cho, Choi, Hwang, Jin, and
+  Lee]{yuh2026bmd}
+JooKyung Yuh, Byungmin Park, Eunseo Choi, Jinheon Baek, Junmo Cho, Kyu~Hyun
+  Choi, Sung~Ju Hwang, Kyong~Hwan Jin, and Hae~Beom Lee.
+\newblock Bayesian model discovery with language models: Closing the loop
+  between hypotheses and experiments.
+\newblock \emph{arXiv preprint arXiv:2610.25747}, 2026.
+
+\bibitem[Kriz et~al.(2026)Kriz, Berthon, Astorga, and van~der
+  Schaar]{kriz2026amortizing}
+Anita Kriz, Antonin Berthon, Nicol{\'a}s Astorga, and Mihaela van~der Schaar.
+\newblock Amortizing sequential experimental design in reasoning {LLMs}.
+\newblock \emph{arXiv preprint arXiv:2610.20832}, 2026.
+
+\bibitem[Shetty and Braga-Neto(2026)]{shetty2026llmidea}
+Surya Shetty and Ulisses Braga-Neto.
+\newblock {LLM-IDEA}: Identifiability-driven experimental agent for autonomous
+  discovery of mechanistic world models.
+\newblock \emph{arXiv preprint arXiv:2610.11253}, 2026.
+
+\bibitem[Ma et~al.(2026)]{ma2026outgrow}
+SiYuan Ma et~al.
+\newblock Learning to outgrow a theory: Experimental discovery beyond the
+  initial hypothesis space.
+\newblock \emph{arXiv preprint arXiv:2610.07627}, 2026.
+
+\bibitem[Li et~al.(2024{\natexlab{a}})Li, Fox, and Goodman]{li2024automated}
+Michael~Y. Li, Emily~B. Fox, and Noah~D. Goodman.
+\newblock Automated statistical model discovery with language models.
+\newblock In \emph{International Conference on Machine Learning (ICML)},
+  2024{\natexlab{a}}.
+
+\bibitem[Li et~al.(2024{\natexlab{b}})Li, Vajipey, Goodman, and
+  Fox]{li2024critical}
+Michael~Y. Li, Vivek Vajipey, Noah~D. Goodman, and Emily~B. Fox.
+\newblock {CriticAL}: Critic automation with language models.
+\newblock \emph{arXiv preprint arXiv:2411.06590}, 2024{\natexlab{b}}.
+
+\bibitem[Xu et~al.(2026)]{xu2026calibration}
+Jian Xu et~al.
+\newblock Calibration, not compilation: Detecting and repairing misspecified
+  probabilistic programs written by language models.
+\newblock \emph{arXiv preprint arXiv:2606.31630}, 2026.
+
+\bibitem[ano(2026{\natexlab{b}})]{anon2026fasim}
+Agentic simulator construction with falsification-guided structural diagnosis,
+  2026{\natexlab{b}}.
+\newblock URL \url{https://openreview.net/forum?id=Iin8ijZhoS}.
+\newblock Submitted to ICLR 2027 (double-blind review), OpenReview.
+
+\bibitem[Lamb(2026)]{lamb2026esm}
+Kara~D. Lamb.
+\newblock Can {LLM} agents improve imperfect parameterizations in {E}arth
+  system models?
+\newblock In \emph{NeurIPS 2026 Workshop on Simulation for Science (Sim2Sci)},
+  2026.
+\newblock URL \url{https://openreview.net/forum?id=r759nf5oK8}.
+
+\bibitem[ano(2026{\natexlab{c}})]{anon2026urbansurface}
+{UrbanSurface-Agent}: Physics-gated scientific reasoning for urban surface
+  parameterization, 2026{\natexlab{c}}.
+\newblock URL \url{https://openreview.net/forum?id=halLjo0pgM}.
+\newblock Submitted to ICLR 2027 (double-blind review), OpenReview.
+
+\bibitem[Yantovski-Barth et~al.(2026)]{yantovskibarth2026precision}
+Matthew Yantovski-Barth et~al.
+\newblock When precision exceeds fidelity: Systematic error quantification for
+  inference with misspecified simulators.
+\newblock In \emph{NeurIPS 2026 Workshop on Simulation for Science (Sim2Sci)},
+  2026.
+\newblock URL \url{https://openreview.net/forum?id=ll67qUJPif}.
+
+\bibitem[Somasekharan et~al.(2026)Somasekharan, Yue, Cao, Li, Emami, Bhargav,
+  Acharya, Xie, and Pan]{somasekharan2026cfdllmbench}
+Nithin Somasekharan, Ling Yue, Yadi Cao, Weichao Li, Patrick Emami,
+  Pochinapeddi~Sai Bhargav, Anurag Acharya, Xingyu Xie, and Shaowu Pan.
+\newblock {CFDLLMBench}: A benchmark suite for evaluating large language models
+  in computational fluid dynamics.
+\newblock \emph{Journal of Data-centric Machine Learning Research}, 2026.
+\newblock arXiv:2509.20374.
+
+\bibitem[Yue et~al.(2026)Yue, Somasekharan, Zhang, Cao, Chen, Di, and
+  Pan]{yue2026foamagent}
+Ling Yue, Nithin Somasekharan, Tingwen Zhang, Yadi Cao, Zhangze Chen, Shimin
+  Di, and Shaowu Pan.
+\newblock {Foam-Agent}: A large language model-based multi-agent framework for
+  automating computational fluid dynamics workflows.
+\newblock \emph{Computer Methods in Applied Mechanics and Engineering},
+  461:\penalty0 119271, 2026.
+
+\bibitem[Hang et~al.(2026)]{hang2026pdeagentbench}
+Zhen Hang et~al.
+\newblock {PDEAgent-Bench}: A multi-metric, multi-library benchmark for {PDE}
+  solver generation.
+\newblock \emph{arXiv preprint arXiv:2605.09636}, 2026.
+
+\bibitem[Mudur et~al.(2025)Mudur, Cui, Venugopalan, Raccuglia, Brenner, and
+  Norgaard]{mudur2025feabench}
+Nayantara Mudur, Hao Cui, Subhashini Venugopalan, Paul Raccuglia, Michael~P.
+  Brenner, and Peter Norgaard.
+\newblock {FEABench}: Evaluating language models on multiphysics reasoning
+  ability.
+\newblock \emph{arXiv preprint arXiv:2504.06260}, 2025.
+
+\bibitem[Kumar et~al.(2026)Kumar, Rajput, Mausam, and Krishnan]{anon2026mdgym}
+Vinay Kumar, Satyendra Rajput, Mausam, and N.~M.~Anoop Krishnan.
+\newblock {MDGym}: Benchmarking {AI} agents on molecular simulations.
+\newblock arXiv:2605.08941, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.08941}.
+
+\bibitem[ano(2026{\natexlab{d}})]{anon2026neutrongym}
+{NeutronGym}: Physics-graded neutron instrument design for {LLM} agents,
+  2026{\natexlab{d}}.
+\newblock URL \url{https://openreview.net/forum?id=1NbQZX0zFY}.
+\newblock Submitted to ICLR 2027 (double-blind review), OpenReview.
+
+\bibitem[Zhang et~al.(2025)Zhang, Cao, Sun, and Yu]{zhang2025caed}
+Yang Zhang, Yadi Cao, Sophia~Huiwen Sun, and Rose Yu.
+\newblock {CAED}-agent: An agentic framework to automate simulation-based
+  experimental design, 2025.
+\newblock URL \url{https://openreview.net/forum?id=nGihWDdQFI}.
+\newblock Submitted to ICLR 2026.
+
+\bibitem[Wang(2026)]{wang2026calibrationagent}
+Ruo-Qian Wang.
+\newblock When is a large language model a good calibration agent?
+  physics-labeled prompting for budgeted engineering simulator calibration.
+\newblock \emph{arXiv preprint arXiv:2610.22379}, 2026.
+
+\bibitem[G{\'o}mez-Guill{\'e}n et~al.(2026)]{gomez2026agentic}
+David G{\'o}mez-Guill{\'e}n et~al.
+\newblock Agentic calibration of grey-box simulation models: An {LLM}-driven
+  alternative.
+\newblock \emph{arXiv preprint arXiv:2607.18308}, 2026.
+
+\bibitem[Chen et~al.(2026)Chen, Gui, Fang, Tao, Zheng, Liu,
+  et~al.]{chen2026batterysim}
+Jiawei Chen, Xiaofan Gui, Shikai Fang, Shengyu Tao, Shun Zheng, Weiqing Liu,
+  et~al.
+\newblock {Battery-Sim-Agent}: Leveraging {LLM}-agent for inverse battery
+  parameter estimation.
+\newblock \emph{arXiv preprint arXiv:2605.29560}, 2026.
+
+\bibitem[ano(2026{\natexlab{e}})]{anon2026bkbagent}
+{BKBAgent}: A battery parameter identification agent with {B}ayesian
+  experimental design and knowledge graph, 2026{\natexlab{e}}.
+\newblock URL \url{https://openreview.net/forum?id=whcg806KGZ}.
+\newblock Submitted to ICLR 2027 (double-blind review), OpenReview.
+
+\bibitem[Piga and Forgione(2026)]{piga2026asia}
+Dario Piga and Marco Forgione.
+\newblock {ASIA}: An autonomous system identification agent.
+\newblock \emph{arXiv preprint arXiv:2605.10480}, 2026.
+
+\bibitem[Cherian et~al.(2026)Cherian, Corcodel, Jain, and
+  Romeres]{cherian2026llmphy}
+Anoop Cherian, Radu Corcodel, Siddarth Jain, and Diego Romeres.
+\newblock {LLMPhy}: Parameter-identifiable physical reasoning combining large
+  language models and physics engines.
+\newblock In \emph{International Conference on Artificial Intelligence and
+  Statistics (AISTATS)}, 2026.
+
+\bibitem[Holt et~al.(2025)Holt, Ruiz~Luyten, Berthon, and van~der
+  Schaar]{holt2025gsim}
+Samuel Holt, Max Ruiz~Luyten, Antonin Berthon, and Mihaela van~der Schaar.
+\newblock {G-Sim}: Generative simulations with large language models and
+  gradient-free calibration.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2025.
+
+\bibitem[Kennedy and O'Hagan(2001)]{kennedy2001bayesian}
+Marc~C. Kennedy and Anthony O'Hagan.
+\newblock Bayesian calibration of computer models.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 63\penalty0 (3):\penalty0 425--464, 2001.
+\newblock \doi{10.1111/1467-9868.00294}.
+
+\bibitem[Beck and Arnold(1977)]{beck1977parameter}
+James~V. Beck and Kenneth~J. Arnold.
+\newblock \emph{Parameter Estimation in Engineering and Science}.
+\newblock Wiley, New York, 1977.
+
+\bibitem[{\"O}zi{\c{s}}ik and Orlande(2000)]{ozisik2000inverse}
+M.~Necati {\"O}zi{\c{s}}ik and Helcio R.~B. Orlande.
+\newblock \emph{Inverse Heat Transfer: Fundamentals and Applications}.
+\newblock Taylor \& Francis, New York, 2000.
+
+\bibitem[Oberkampf and Roy(2010)]{oberkampf2010verification}
+William~L. Oberkampf and Christopher~J. Roy.
+\newblock \emph{Verification and Validation in Scientific Computing}.
+\newblock Cambridge University Press, 2010.
+\newblock \doi{10.1017/CBO9780511760396}.
+
+\bibitem[Kadavath et~al.(2022)Kadavath, Conerly, Askell, Henighan, Drain,
+  Perez, et~al.]{kadavath2022language}
+Saurav Kadavath, Tom Conerly, Amanda Askell, Tom Henighan, Dawn Drain, Ethan
+  Perez, et~al.
+\newblock Language models (mostly) know what they know.
+\newblock \emph{arXiv preprint arXiv:2207.05221}, 2022.
+
+\bibitem[Zhang et~al.(2026)Zhang, Xiong, and Wu]{zhang2026agentic}
+Jiaxin Zhang, Caiming Xiong, and Chien-Sheng Wu.
+\newblock Agentic confidence calibration.
+\newblock In \emph{International Conference on Machine Learning (ICML)}, 2026.
+\newblock URL \url{https://openreview.net/forum?id=B1ISNZQHuI}.
+
+\bibitem[Requeima et~al.(2024)Requeima, Bronskill, Choi, Turner, and
+  Duvenaud]{requeima2024llmprocesses}
+James Requeima, John Bronskill, Dami Choi, Richard~E. Turner, and David
+  Duvenaud.
+\newblock {LLM} processes: Numerical predictive distributions conditioned on
+  natural language.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2024.
+
+\bibitem[Wei et~al.(2025)Wei, Sun, Papay, et~al.]{wei2025browsecomp}
+Jason Wei, Zhiqing Sun, Spencer Papay, et~al.
+\newblock {BrowseComp}: A simple yet challenging benchmark for browsing agents.
+\newblock \emph{arXiv preprint arXiv:2504.12516}, 2025.
+
+\bibitem[Luo et~al.(2026)Luo, Wen, and Wang]{luo2026agentic}
+Han Luo, Bingbing Wen, and Lucy~Lu Wang.
+\newblock Agentic abstention: Do agents know when to stop instead of act?
+\newblock \emph{arXiv preprint arXiv:2606.28733}, 2026.
+
+\bibitem[Liu et~al.(2025)Liu, Qu, Schneider, Singh, and Kumar]{liu2025cart}
+Grace Liu, Yuxiao Qu, Jeff Schneider, Aarti Singh, and Aviral Kumar.
+\newblock {CaRT}: Teaching {LLM} agents to know when they know enough.
+\newblock \emph{arXiv preprint arXiv:2510.08517}, 2025.
+
+\bibitem[Ding et~al.(2026)Ding, Tomlin, and Durrett]{ding2026calibratethenact}
+Wenxuan Ding, Nicholas Tomlin, and Greg Durrett.
+\newblock Calibrate-then-act: Cost-aware exploration in {LLM} agents.
+\newblock \emph{arXiv preprint arXiv:2602.16699}, 2026.
+
+\bibitem[Rein et~al.(2024)Rein, Hou, Stickland, Petty, Pang, Dirani, Michael,
+  and Bowman]{rein2024gpqa}
+David Rein, Betty~Li Hou, Asa~Cooper Stickland, Jackson Petty, Richard~Yuanzhe
+  Pang, Julien Dirani, Julian Michael, and Samuel~R. Bowman.
+\newblock {GPQA}: A graduate-level google-proof {Q\&A} benchmark.
+\newblock In \emph{First Conference on Language Modeling (COLM)}, 2024.
+
+\bibitem[{Center for AI Safety} et~al.(2026){Center for AI Safety}, Phan,
+  Gatti, et~al.]{phan2026hle}
+{Center for AI Safety}, Long Phan, Alice Gatti, et~al.
+\newblock A benchmark of expert-level academic questions to assess {AI}
+  capabilities.
+\newblock \emph{Nature}, 649\penalty0 (8099):\penalty0 1139--1146, 2026.
+\newblock \doi{10.1038/s41586-025-09962-4}.
+\newblock Also known as Humanity's Last Exam, arXiv:2501.14249.
+
+\bibitem[Glazer et~al.(2024)Glazer, Erdil, Besiroglu,
+  et~al.]{glazer2024frontiermath}
+Elliot Glazer, Ege Erdil, Tamay Besiroglu, et~al.
+\newblock {FrontierMath}: A benchmark for evaluating advanced mathematical
+  reasoning in {AI}.
+\newblock \emph{arXiv preprint arXiv:2411.04872}, 2024.
+
+\bibitem[Jain et~al.(2025)Jain, Han, Gu, Li, Yan, Zhang, Wang, Solar-Lezama,
+  Sen, and Stoica]{jain2025livecodebench}
+Naman Jain, King Han, Alex Gu, Wen-Ding Li, Fanjia Yan, Tianjun Zhang, Sida
+  Wang, Armando Solar-Lezama, Koushik Sen, and Ion Stoica.
+\newblock {LiveCodeBench}: Holistic and contamination free evaluation of large
+  language models for code.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+
+\bibitem[Tian et~al.(2024)Tian, Gao, Zhang, et~al.]{tian2024scicode}
+Minyang Tian, Luyu Gao, Shizhuo~Dylan Zhang, et~al.
+\newblock {SciCode}: A research coding benchmark curated by scientists.
+\newblock In \emph{Advances in Neural Information Processing Systems (NeurIPS),
+  Datasets and Benchmarks Track}, 2024.
+
+\bibitem[Jimenez et~al.(2024)Jimenez, Yang, Wettig, Yao, Pei, Press, and
+  Narasimhan]{jimenez2024swebench}
+Carlos~E. Jimenez, John Yang, Alexander Wettig, Shunyu Yao, Kexin Pei, Ofir
+  Press, and Karthik Narasimhan.
+\newblock {SWE}-bench: Can language models resolve real-world {GitHub} issues?
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\bibitem[Liu et~al.(2024)Liu, Yu, Zhang, et~al.]{liu2024agentbench}
+Xiao Liu, Hao Yu, Hanchen Zhang, et~al.
+\newblock {AgentBench}: Evaluating {LLMs} as agents.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2024.
+
+\bibitem[Xie et~al.(2024)Xie, Zhang, Chen, et~al.]{xie2024osworld}
+Tianbao Xie, Danyang Zhang, Jixuan Chen, et~al.
+\newblock {OSWorld}: Benchmarking multimodal agents for open-ended tasks in
+  real computer environments.
+\newblock In \emph{Advances in Neural Information Processing Systems (NeurIPS),
+  Datasets and Benchmarks Track}, 2024.
+
+\bibitem[Deng et~al.(2025)Deng, Da, Pan, et~al.]{deng2025swebenchpro}
+Xiang Deng, Jeff Da, Edwin Pan, et~al.
+\newblock {SWE-Bench Pro}: Can {AI} agents solve long-horizon software
+  engineering tasks?
+\newblock \emph{arXiv preprint arXiv:2509.16941}, 2025.
+
+\bibitem[Yao et~al.(2024)Yao, Shinn, Razavi, and Narasimhan]{yao2024tau}
+Shunyu Yao, Noah Shinn, Pedram Razavi, and Karthik Narasimhan.
+\newblock $\tau$-bench: A benchmark for tool-agent-user interaction in
+  real-world domains.
+\newblock \emph{arXiv preprint arXiv:2406.12045}, 2024.
+
+\end{thebibliography}
