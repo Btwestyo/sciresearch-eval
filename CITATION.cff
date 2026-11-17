@@ -30,4 +30,9 @@ preferred-citation:
     - family-names: Gongora
       given-names: Aldair E.
   year: 2026
-  notes: "arXiv preprint (identifier to be added at release)"
+  url: "https://arxiv.org/abs/2611.21541"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.21541"
+      description: "arXiv preprint"
+  notes: "arXiv preprint arXiv:2611.21541"

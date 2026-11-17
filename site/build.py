@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE, DATA, FIGS = ROOT / "site", ROOT / "paper" / "data", ROOT / "paper" / "figures"
-ARXIV_URL = ""  # e.g. https://arxiv.org/abs/2611.xxxxx
+ARXIV_URL = "https://arxiv.org/abs/2611.21541"
 CODE_URL = "https://github.com/Btwestyo/sciresearch-eval"
 TITLE = "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents"
 AUTHORS = "Brian T. Weston, Alondra Torres Contreras, Aldair E. Gongora"
@@ -81,7 +81,8 @@ def link(url: str, label: str) -> str:
 
 def page() -> str:
     bibtex = (f"@misc{{weston2026sciresearcheval,\n  title  = {{{TITLE}}},\n  author = {{Weston, Brian T. and Torres "
-              f"Contreras, Alondra and Gongora, Aldair E.}},\n  year   = {{2026}},\n  note   = {{arXiv preprint}}\n}}")
+              f"Contreras, Alondra and Gongora, Aldair E.}},\n  year   = {{2026}},\n  eprint = {{2611.21541}},\n"
+              f"  archivePrefix = {{arXiv}},\n  primaryClass = {{cs.AI}}\n}}")
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="data:,">
